@@ -1,7 +1,1 @@
-1.Dado que no hemos realizado cambios no es necesario mantener una revision de los mismos,
-de esta forma el git log nos dira que no hay nada que enviar.
-
-Aunque al entrar este fichero en el proyecto nos informa de que hay que añadirlo.
-
-2.Para solucionar el problema de ejecutar "git log" ->fatal: bad default revision 'HEAD',simplemente 
-hay que sencillamente añadir los archivos que tengas.
+Trabajo en equipo con git
