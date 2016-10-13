@@ -21,3 +21,11 @@ Cuando un programa es interpretado, el proceso que se sigue es el siguiente: el 
 Repitiendo esta secuencia para todas las líneas, el intérprete realiza lo que los ficheros fuente expresan... es decir, ejecuta el programa.
 
 A menudo, se compara al intérprete con un traductor simultáneo de idiomas. Por ejemplo, cuando vemos en la tele a alguna personalidad expresándose en otro idioma y un traductor simultáneo nos traduce lo que esta persona dice "al vuelo". Esta persona no espera a que el discurso de la personalidad concluya para traducirlo todo de golpe, sino que cada vez que este traductor ha entendido un concepto, lo traduce al español y lo expresa.
+
+ 86
+down vote
+accepted
+	
+
+	¿Que significado tiene la primera linea de helloWorld.sh?
+It's called a shebang, and tells the parent shell which interpreter should be used to execute the script.
