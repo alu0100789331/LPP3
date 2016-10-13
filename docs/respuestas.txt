@@ -1,1 +1,23 @@
 Trabajo en equipo con git
+
+Diferencias entre compilacion e interpretacion:
+
+compilar:
+La compilación consiste en tomar los ficheros fuente que conforman un programa y, línea por línea, traducir cada instrucción de alto nivel por varias instrucciones en código máquina que realicen lo que la instrucción de alto nivel expresa.
+
+Si se repite esa traducción para todas las líneas del código fuente, obtendremos un conjunto de instrucciones máquina. Grabando esas instrucciones máquina en un fichero que contiene una estructura interna que un determinado sistema operativo es capaz de entender, obtenemos un fichero binario ejecutable, o simplemente, "un ejecutable".
+
+El encargado de realizar esta traducción es un tipo de programa llamado compilador. En su funcionamiento más básico, un compilador acepta uno o más ficheros fuente y si no contienen errores sintácticos produce un fichero binario ejecutable, que un sistema operativo será capaz de cargar en memoria principal y pedir a la CPU que lo ejecute.
+
+A menudo se compara a un compilador con un traductor de idiomas. Imagina un libro escrito en inglés. Para publicar su versión en español, una persona que conoce las reglas de los dos idiomas y dispone de la técnica para expresarse en ambos va leyendo el libro en inglés frase a frase y va escribiendo su equivalente en español.
+
+interpretar:
+El proceso de interpretación es bastante diferente al de compilación, pero su resultado debería ser similar: la ejecución de un programa.
+
+El encargado de hacer esto es un programa llamado intérprete. A diferencia del compilador, el intérprete de un lenguaje no produce una traducción a código máquina. El intérprete intenta realizar "al vuelo" lo que se expresa en los ficheros fuente. El intérprete contiene en su interior miles de porciones de código máquina, que combinándolas adecuadamente pueden realizar las mismas tareas que expresa una orden escrita en el lenguaje de alto nivel.
+
+Cuando un programa es interpretado, el proceso que se sigue es el siguiente: el intérprete obtiene una instrucción del fichero fuente y la realiza inmediatamente. Para ello, ejecuta en secuencia varias de esas porciones de código máquina que comentábamos antes, y que residen en el interior del intérprete. Cuando la CPU termina la ejecución de esa secuencia, el resultado es que la CPU habrá hecho lo que la línea de código fuente expresaba.
+
+Repitiendo esta secuencia para todas las líneas, el intérprete realiza lo que los ficheros fuente expresan... es decir, ejecuta el programa.
+
+A menudo, se compara al intérprete con un traductor simultáneo de idiomas. Por ejemplo, cuando vemos en la tele a alguna personalidad expresándose en otro idioma y un traductor simultáneo nos traduce lo que esta persona dice "al vuelo". Esta persona no espera a que el discurso de la personalidad concluya para traducirlo todo de golpe, sino que cada vez que este traductor ha entendido un concepto, lo traduce al español y lo expresa.
