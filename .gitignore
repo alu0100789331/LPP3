@@ -1,0 +1,6 @@
+#My gitignore#
+
+*~
+*.o
+*.class
+*.tgz
