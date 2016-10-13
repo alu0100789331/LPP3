@@ -1,3 +1,3 @@
 #!/usr/bin/ruby
 
-puts 'Hello, world #{ARGV[0]}'
+puts "Hello, world #{ARGV[0]}"
